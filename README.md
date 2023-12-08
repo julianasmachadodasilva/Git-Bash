@@ -1,44 +1,44 @@
 # Git Bash
 
 ### Iniciar um repositorio
-git init
+`git init`
 
 ## Criando um commit
-git add nome do aqruivo
+`git add nome do aqruivo`
 
 ### Adiciona todos os arquivos para Stage
-git add .
+`git add .`
 
 ### Verificando os aqruivos que estão em stage esperando ser comitados
-git status
+`git status`
 
 ### Comitar os arquvivos da sua máquina para o git
-git commit -m "nome_da_pasta"
+`git commit -m <nome_da_pasta>`
 
 ## Renomeando o nome da Branch "Master" para "main"
-git branch -M "main"
+`git branch -M <main>`
 
 ## Abrindo um repositório do Github no Git bash
-git remote add origin https://github.com/julianasmachadodasilva
+`git remote add origin https://github.com/julianasmachadodasilva`
 
 ### Passar os arquivos da sua máquina para o Github
-git push -u origin main
+`git push -u origin main`
 
 ## Criando uma feature dentro da Branch main
-git checkout -b "nome_da_pasta"
-git add .
-git commit -m "none_da_pasta"
+`git checkout -b <nome_branch>`
+`git add .`
+`git commit -m <none_da_pasta>`
 
 ### Para voltar para a Branch main
-git checkout main
+`git checkout main`
 
 ### Para voltar para a Branch nome_da_pasta
-git checkout nome_da_feature
+`git checkout nome_da_feature`
 
 ## Mergeando sua feature na Branch principal
-git checkout main
-git merge nome_da_feature
-git push origin main 
+`git checkout main`
+`git merge nome_da_feature`
+`git push origin main`
 
 
 
