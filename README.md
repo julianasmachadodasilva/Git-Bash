@@ -1,7 +1,6 @@
 # Git Bash
 
-* Iniciar um repositorio:
-git init
+* Iniciar um repositorio: git init
 
 # Criando um commit
 git add nome do aqruivo
