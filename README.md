@@ -1,6 +1,6 @@
 # Git Bash
 
-* Iniciar um repositorio 
+* Iniciar um repositorio:
 git init
 
 # Criando um commit
